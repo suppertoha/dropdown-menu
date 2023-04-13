@@ -30,7 +30,6 @@ window.addEventListener('load', function () {
     });
   });
 
-
   document.querySelectorAll(".accordion-start-js").forEach((el) => {
     el.addEventListener("click", () => {
       const content = el.nextElementSibling;
